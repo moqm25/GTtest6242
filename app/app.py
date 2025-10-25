@@ -37,7 +37,7 @@ def main() -> None:
     pages = [
         st.Page("Home.py", title="Nutrition Explorer", icon="🥗", default=True),
         st.Page("Search.py", title="Search Foods", icon=":material/search:", url_path="search"),
-        # st.Page("Detail.py", title="Food Detail", icon=":material/info:", url_path="detail"),
+        st.Page("Detail.py", title="Food Detail", icon=":material/info:", url_path="detail"),
         st.Page("Compare.py", title="Compare Foods", icon=":material/bar_chart:", url_path="compare"),
         st.Page("Substitute.py", title="Find Substitutes", icon=":material/sync_alt:", url_path="substitute"),
     ]
