@@ -1,0 +1,68 @@
+.DS_Store
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+env.bak/
+.python-version
+
+# Packaging / build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.egg
+
+# Testing & coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.nox/
+.tox/
+.cache/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# Editors & tooling
+.idea/
+.vscode/
+.DS_Store?
+*.swp
+*.swo
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Project data artifacts
+DATA/*.csv
+DATA/*.zip
+DATA/*.parquet
+DATA/raw/
+DATA/processed/
+data/*.csv
+data/*.zip
+data/*.parquet
+data/raw/
+data/processed/
+
+# Generated models
+models/
+
+# Logs & scratch
+logs/
+*.log
+tmp/
+temp/
