@@ -1,0 +1,22 @@
+weights:
+  macros: 0.45
+  micros: 0.35
+  penalties: 0.20
+
+daily_values:
+  protein_g: 50.0
+  fiber_g: 28.0
+  potassium_mg: 4700.0
+  added_sugar_g: 50.0
+  sodium_mg: 2300.0
+  sat_fat_g: 20.0
+  energy_kcal: 2000.0
+
+energy_density_reference: 275.0
+penalty_estimate_factor: 0.75
+
+grade_cutpoints:
+  A: 85.0
+  B: 75.0
+  C: 65.0
+  D: 50.0

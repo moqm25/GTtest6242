@@ -1,0 +1,6 @@
+data_root: DATA
+staging_dir: data/raw
+processed_dir: data/processed
+dictionaries_dir: data/dictionaries
+docs_dir: docs
+models_dir: models

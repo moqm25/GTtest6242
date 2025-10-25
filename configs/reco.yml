@@ -1,0 +1,31 @@
+# configs/reco.yml
+# Controls for building the neighbor index & substitution behavior
+
+# Scale limits
+max_items: 250000            # cap items included in index (keep build tractable)
+min_features_present: 6      # require at least this many non-null features per item
+
+# Similarity & neighbors
+n_neighbors: 50              # store top-50 neighbors per item
+metric: cosine
+batch_size: 20000            # process items in batches to keep memory bounded
+random_seed: 13
+
+# Constraints used at recommendation time
+form_match: true
+group_match: true
+min_score_gain: 10
+max_kcal_delta: 100          # per-serving kcal absolute delta cap
+sodium_cap: 500              # mg per serving cap
+
+# Ranking objective weights
+objective_weights:
+  similarity: 0.6
+  score_gain: 0.4
+
+constraints:
+  min_score_gain: 10
+  max_kcal_delta: 100
+  sodium_cap: 500
+  form_match: true
+  group_match: true

@@ -1,0 +1,15 @@
+pandas
+numpy
+pyarrow
+scikit-learn
+scipy
+plotly
+streamlit
+pyyaml
+ruff
+black
+isort
+pytest
+joblib
+rich
+tqdm
